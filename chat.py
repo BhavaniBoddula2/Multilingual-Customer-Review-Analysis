@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import nltk
+nltk.download('vader_lexicon')
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from googletrans import Translator
 from langdetect import detect, LangDetectException
